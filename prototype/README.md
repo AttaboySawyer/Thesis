@@ -4,9 +4,9 @@ To run the prototype, you must have the server and frontend running at the same 
 ### Server
 To run the server, download the server folder. All you should need is the app.py file. install the neccessary dependencies you might be missing using 
 ```
-pip install dependency
+pip install requiredDependency
 ```
-then fire up the serve using
+then fire up the server using
 ```
 flask run
 ```
@@ -20,3 +20,12 @@ at the frontend directory should download all neccessary packages. Then fire up 
 ```
 npm start
 ```
+
+### Using the frontend
+Once both are running, you should see a hompage that looks like this
+![image](https://user-images.githubusercontent.com/83662258/206776840-939711ec-0d08-4c79-b075-7c953550bdf4.png)
+
+Press the SELECT FILE button and use the example temp mp4 provided in this folder. Wiht th eserver running, the mp4 will be processed, and you will eventually get a screen like this
+![image](https://user-images.githubusercontent.com/83662258/206777188-8aaffb13-f3af-4724-afd4-d289fda829df.png)
+
+Where you can select images and draw on them. The download buttons are placeholders at the moment, as I was more concerned with getting the network running with the frontend.

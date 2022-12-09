@@ -14,7 +14,7 @@ Base network model: https://drive.google.com/file/d/1xDk582ywqZRQZ9AbpNRtd0R79bF
 
 ## Datasets
 
-Base network training: 
+Base network training: https://drive.google.com/drive/folders/1_gEjWIgB0NcuFIfAJ6xXY6GxZFLewWB6?usp=share_link
 
 Siamese network training:
 -also the same dataset used during old SNN training

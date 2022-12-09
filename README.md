@@ -1,4 +1,4 @@
-# Thesis Experiments and Datasets
+# Thesis Directory
 Welcome, this is the repository for all experiments, examples, dataset links, and the prototype/server source code. Below is a brief explaination of the contents of each folder. Please read the README file in each folder for further details and explaination of running the code.
 
 ## Datasets folder

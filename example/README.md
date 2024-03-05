@@ -1,12 +1,24 @@
 # Example IPYNB
 
-NOTE: It has come to my attention that the example.ipynb may not be downloadable from Github due to file size, so I have uploaded the identical file to Google Colab which displays the code and results in the same form as the example ipynb would if downloaded. Please view the Colab notebook through the following link:
+Welcome to the Example IPYNB section. Below is a link to access the Google Colab hosted example.ipynb file, or you can download the file from this directory, which provides a comprehensive walkthrough of our project's implementation and results. Please note that due to the size of the code block output windows, you may need to scroll to the very bottom of some ouptuts to view the results, like for the accuracy of the final trained networks as an example.
 
-https://colab.research.google.com/drive/1lE6RFesnhREep_9SWKp80EEE_08nfN1U?usp=sharing
+## Access the Example IPYNB
 
-If you wish to run it yourself, it will require the python libraries to be downloaded on you machine and all datasets and pretrained network paths to be updated on your machine, but in this form you can clearly see the preprocessing and results process without having to run it yourself.
+**Note**: Due to file size limitations on Github, the example.ipynb file may not be directly downloadable. However, you can access an identical version hosted on Google Colab, which displays the code and results in the same format as the example.ipynb file would if downloaded.
 
-The example ipynb file walks through the process of how the networks are trained and put together, how the data is preprocessed with visualization, and how the results are acheived. So long as the dataset paths are pointed to the right locations, this should run, and you should also be able to see my past run of the notebook with all outputs.
+[View Example IPYNB on Google Colab](https://colab.research.google.com/drive/1lE6RFesnhREep_9SWKp80EEE_08nfN1U?usp=sharing)
 
-The results acheived in the written thesis were acheived using the saved network located in the exerimental source code folder, but the training and testing processes were exactly the same as in this exmaple. The results may vary slightly as this example generates a newly trained base network, so the training my be slightly different.
+## Usage Instructions
 
+If you wish to run the example.ipynb file yourself, please ensure that you have the necessary Python libraries installed on your machine. Additionally, you will need to update all dataset and pre-trained network paths to the appropriate locations.
+
+The example.ipynb file walks through the following processes:
+- Training and assembly of the networks
+- Preprocessing of data with visualization
+- Achievement of results
+
+As long as the dataset paths are correctly pointed to the right locations, the notebook should run smoothly. You will also be able to view past runs of the notebook with all outputs.
+
+Please note that while the results achieved in the written thesis were based on the saved network located in the experimental source code folder, the training and testing processes were exactly the same as in this example. However, the results may vary slightly as this example generates a newly trained base network, resulting in slight differences in training.
+
+Feel free to explore the example.ipynb file for a detailed understanding of our project implementation and results. If you encounter any issues or have any questions, please do not hesitate to reach out.

@@ -1,31 +1,36 @@
-# Prototype
-To run the prototype, you must have the server and frontend running at the same time. Below are instructions to get them runnning. 
+# Prototype Usage Instructions
 
-### Server
-To run the server, download the server folder. All you should need is the app.py file. install the neccessary dependencies you might be missing using 
+To run the prototype, ensure both the server and frontend are operational concurrently. Below are step-by-step instructions to set up and launch both components.
+
+### Server Setup
+
+1. Download the server folder. The essential file required is `app.py`.
+2. Install any missing dependencies using the following command:
 ```
 pip install requiredDependency
 ```
-then fire up the server using
+3. Initiate the server by executing:
 ```
 flask run
 ```
 
-### Frontend
-To run the frontend, download the frontend folder. Since the frontend is built using React and javascript, running
+### Frontend Setup
+
+1. Download the frontend folder.
+2. As the frontend is developed using React and JavaScript, download all necessary packages by navigating to the frontend directory and execute:
 ```
 npm install
 ```
-at the frontend directory should download all neccessary packages. Then fire up the frontend using
+3. Launch the frontend by executing:
 ```
 npm start
 ```
 
-### Using the frontend
-Once both are running, you should see a hompage that looks like this
+### Utilizing the Frontend
+Once both components are operational, you'll encounter a homepage resembling the following:
 ![image](https://user-images.githubusercontent.com/83662258/206776840-939711ec-0d08-4c79-b075-7c953550bdf4.png)
 
-Press the SELECT FILE button and use the example temp mp4 provided in this folder. Wiht th eserver running, the mp4 will be processed, and you will eventually get a screen like this
+Click on the "SELECT FILE" button and utilize the provided example temp mp4 file located in this folder. With the server running, the mp4 file will undergo processing, eventually leading you to a screen similar to this:
 ![image](https://user-images.githubusercontent.com/83662258/206777188-8aaffb13-f3af-4724-afd4-d289fda829df.png)
 
-Where you can select images and draw on them. The download buttons are placeholders at the moment, as I was more concerned with getting the network running with the frontend.
+Here, you can select images and annotate them. Please note that the download buttons are currently placeholders, as the primary focus was on integrating the network with the frontend.
